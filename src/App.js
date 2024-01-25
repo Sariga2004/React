@@ -1,6 +1,7 @@
 import logo from './logo.svg';
-import './App.css';
-import TestComp from './components/functionalcomponents/props.jsx';
+import './App.css'
+//import TestComp from './components/classcomponents/statecomponents.jsx';
+import StateComponent from './components/classcomponents/statecomponent.jsx';
 
 
 function App() {
@@ -9,8 +10,8 @@ function App() {
       
 
       <header className="App-header">
-        <TestComp name="sariga" role="student"/>
-
+     
+<StateComponent > </StateComponent>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
