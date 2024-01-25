@@ -1,15 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import TestComp from './components/functionalcomponents/testComponents';
-import ReiteratorComp from './components/classcomponents/testclasscomponent';
+import TestComp from './components/functionalcomponents/props.jsx';
+
 
 function App() {
   return (
     <div className="App">
-      < ReiteratorComp/>
+      
 
       <header className="App-header">
-        <TestComp/>
+        <TestComp name="sariga" role="student"/>
 
         <img src={logo} className="App-logo" alt="logo" />
         <p>
