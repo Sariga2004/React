@@ -1,0 +1,12 @@
+
+nav {
+    background-color:blanchedalmond; /* Background color of the navbar */
+  }
+  
+  ol {
+    display: flex;
+    list-style-type: none; /* Display list items horizontally */
+   /* Remove default margin */
+    justify-content: space-evenly;
+
+  }

@@ -1,10 +1,15 @@
-import React from "react";
-import { ReactDOM } from "react";
+//import React from "react";
+ import "../../css/props.css";
+//import { ReactDOM } from "react";
 
-function TestComp(props){
+function TestComp(props)
+{
+    const atribute={ background:"pink"}//internal
     return(
-        <div>
-            <h1>Hello,  Im  {props.name}<br></br>{props.role}</h1>
+        <div style={atribute}>
+        {/* inline css */}
+       {/* <div style={{color:"black"}}>  */}
+        <h1>Hello,  Im  {props.name}<br></br>{props.role}</h1>
         </div>
     );
 }
