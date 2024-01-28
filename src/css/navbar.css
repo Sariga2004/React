@@ -8,5 +8,7 @@ nav {
     list-style-type: none; /* Display list items horizontally */
    /* Remove default margin */
     justify-content: space-evenly;
-
-  }
+   }
+li{
+  text-decoration: none;
+}
