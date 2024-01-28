@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'; // Import Brows
 import About from './components/functionalcomponents/About';
 import Login from './components/functionalcomponents/Login';
 import Reference from './components/functionalcomponents/Reference';
+import Memo   from './components/functionalcomponents/Memo';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/About" element={<About />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/Memo" element={<Memo />} />
           {/* Define routes using Route component */}
           {/* Add more routes as needed */}
           <Route path="/Reference" element={<Reference />} />
@@ -22,7 +24,7 @@ function App() {
 
       {/* Remaining JSX code */}
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -33,7 +35,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
       </header>
       <footer className="App-footer">
         <div className="container text-center">
