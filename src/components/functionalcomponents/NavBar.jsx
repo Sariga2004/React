@@ -12,6 +12,7 @@ const NavBar = () => {
         <li><Link to="/Memo">Memo</Link></li>
         <li><Link to="/login">Login</Link></li>
         <li><Link to="/reference">reference</Link></li>
+        <li><Link to="/Callback">Callback</Link></li>
       </ol>
     </nav>
   );

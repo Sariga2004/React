@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/functionalcomponents/NavBar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'; // Import BrowserRouter, Routes, and Route from 'react-router-dom'
@@ -6,6 +6,7 @@ import About from './components/functionalcomponents/About';
 import Login from './components/functionalcomponents/Login';
 import Reference from './components/functionalcomponents/Reference';
 import Memo   from './components/functionalcomponents/Memo';
+import Callback from './components/functionalcomponents/Callback';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/About" element={<About />} />
           <Route path="/login" element={<Login />} />
           <Route path="/Memo" element={<Memo />} />
+          <Route path="/Callback" element={<Callback />} />
           {/* Define routes using Route component */}
           {/* Add more routes as needed */}
           <Route path="/Reference" element={<Reference />} />
@@ -23,7 +25,7 @@ function App() {
       </BrowserRouter>
 
       {/* Remaining JSX code */}
-      <header className="App-header">
+      {/* <header className="App-header"> */}
         {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -36,7 +38,7 @@ function App() {
         >
           Learn React
         </a> */}
-      </header>
+      {/* </header> */}
       <footer className="App-footer">
         <div className="container text-center">
           <p>Phone: +91-8056921485</p>
